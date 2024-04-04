@@ -9,12 +9,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pushes to another repository
-      uses: vinayb21/github-action-push-to-another-repo@master
+    - uses: cpina/github-action-push-to-another-repository@main
       env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
       with:
-        source-directory: './test'
+        source-directory: 'test/'
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
-        user-email: iva.utikiv@gmai.com
+        user-email: carles@pina.cat
+        target-branch: main
+        target-directory: docs
