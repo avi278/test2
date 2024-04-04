@@ -9,13 +9,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Push generated webpage to another repository
-      uses: nkoppel/push-files-to-another-repository@1.1.0
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source-files: 'test2.md'
-        destination-username: 'avi278'
-        destination-repository: 'test1'
-        destination-directory: 'projects/my-project'
-        commit-email: 'nathankoppel0@gmail.com'
+      - name: Pushes to another repository
+        uses: vinayb21/github-action-push-to-another-repo@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'test2.md'
+          destination-github-username: 'avi278'
+          destination-repository-name: 'test1'
+          user-email: iva.utikiv@gmai.com
