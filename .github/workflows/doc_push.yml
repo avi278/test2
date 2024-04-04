@@ -9,6 +9,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Build
+      run: echo ${{ secrets.API_TOKEN_GITHUB }}
+
     - name: Pushes test file
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
