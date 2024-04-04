@@ -9,12 +9,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-      - name: Pushes to another repository
-        uses: vinayb21/github-action-push-to-another-repo@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'test2.md'
-          destination-github-username: 'avi278'
-          destination-repository-name: 'test1'
-          user-email: iva.utikiv@gmai.com
+    - name: Pushes to another repository
+      uses: vinayb21/github-action-push-to-another-repo@master
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source-directory: 'test2.md'
+        destination-github-username: 'avi278'
+        destination-repository-name: 'test1'
+        user-email: iva.utikiv@gmai.com
