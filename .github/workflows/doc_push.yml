@@ -9,12 +9,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pushes to another repository
-      uses: vinayb21/github-action-push-to-another-repo@master
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-directory: '../test2'
-        destination-github-username: 'avi278'
-        destination-repository-name: 'test1'
-        user-email: iva.utikiv@gmail.com
+        source_file: './test'
+        destination_repo: 'avi278/test1'
+        destination_folder: 'main'
+        user_email: 'example@email.com'
+        user_name: 'dmnemec'
+        commit_message: 'A custom message for the commit'
