@@ -12,14 +12,15 @@ jobs:
     - name: Build
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
-    - name: Pushes test file
-      uses: dmnemec/copy_file_to_another_repo_action@main
+    - name: build documentation
+    - run: touch _build/html/.nojekyll
+    - uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'test2.md'
-        destination_repo: 'avi278/test1'
-        destination_folder: 'main'
-        user_email: 'example@email.com'
-        user_name: 'dmnemec'
-        commit_message: 'A custom message for the commit'
+        source-directory: '_build/html'
+        destination-github-username: 'avi278'
+        destination-repository-name: 'test1'
+        user-email: iva.utikiv@gmail.com
+        target-branch: main
+        target-directory: test
