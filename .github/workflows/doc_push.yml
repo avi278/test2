@@ -13,8 +13,9 @@ jobs:
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
     - name: build documentation
-    - run: touch _build/html/.nojekyll
-    - uses: cpina/github-action-push-to-another-repository@main
+      run: touch _build/html/.nojekyll
+    - name: Push
+      uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
