@@ -12,8 +12,9 @@ jobs:
     - name: Build
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
-    - name: build documentation
+    - name: create new dir
       run: mkdir test2
+    - name: create new file
       run: touch test2/test2.txt
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@main
