@@ -21,10 +21,11 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-directory: 'test11'
+        source-directory: 'doc'
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
         user-email: carles3@pina.cat
         target-branch: main
         target-directory: doc
         create-target-branch-if-needed: true
+        commit-message: 'doc generating'
