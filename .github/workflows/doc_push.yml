@@ -13,9 +13,9 @@ jobs:
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
     - name: create new dir
-      run: mkdir test11
+      run: mkdir ./test11
     - name: create new file
-      run: touch test11/test1.txt
+      run: touch ./test11/test1.txt
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
