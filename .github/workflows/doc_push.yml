@@ -13,13 +13,14 @@ jobs:
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
     - name: build documentation
-      run: touch ./test2.txt
+      run: mkdir test2
+      run: touch test2/test2.txt
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-directory: 'test2.txt'
+        source-directory: 'test2'
         destination-github-username: 'avi278'
         destination-repository-name: 'test2'
         user-email: carles3@pina.cat
