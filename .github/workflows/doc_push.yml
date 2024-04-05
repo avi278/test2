@@ -13,13 +13,13 @@ jobs:
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
     - name: build documentation
-      run: touch _build/html/.nojekyll
+      run: touch test/test2.txt
     - name: Push
       uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source-directory: '_build/html'
+        source-directory: 'test/'
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
         user-email: iva.utikiv@gmail.com
