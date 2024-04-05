@@ -13,7 +13,7 @@ jobs:
       run: echo ${{ secrets.API_TOKEN_GITHUB }}
 
     - name: build documentation
-      run: touch test/test2.txt
+      run: touch ./test/test2.txt
     - name: Push
       uses: cpina/github-action-push-to-another-repository@main
       env:
