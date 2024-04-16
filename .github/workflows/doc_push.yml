@@ -23,6 +23,6 @@ jobs:
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
         target-branch: main
-        target-directory: doc
+        target-directory: docs
         create-target-branch-if-needed: true
         commit-message: 'doc generating'
