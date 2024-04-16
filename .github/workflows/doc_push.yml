@@ -17,12 +17,11 @@ jobs:
 
       uses: cpina/github-action-push-to-another-repository@main
       env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        API_TOKEN_GITHUB: ${{ secrets.ONLY_TEST1 }}
       with:
         source-directory: 'doc'
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
-        #user-email: carles3@pina.cat
         target-branch: main
         target-directory: doc
         create-target-branch-if-needed: true
