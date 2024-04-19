@@ -11,8 +11,10 @@ jobs:
 
     - name: create new dir
       run: mkdir ./doc
+      
     - name: create new file
       run: touch ./doc/test1.txt
+
     - name: Pushes to another repository
 
       uses: cpina/github-action-push-to-another-repository@main
