@@ -17,12 +17,12 @@ jobs:
 
       uses: cpina/github-action-push-to-another-repository@main
       env:
-        API_TOKEN_GITHUB: ${{ secrets.ONLY_TEST1 }}
+        SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
       with:
         source-directory: 'doc'
         destination-github-username: 'avi278'
         destination-repository-name: 'test1'
         target-branch: main
-        target-directory: docs
+        target-directory: docss
         create-target-branch-if-needed: true
         commit-message: 'doc generating'
