@@ -1,0 +1,182 @@
+/*
+:root {
+    --ifm-color-primary-grey-blue: #ABB8C3;
+    --ifm-color-primary-grey: #555555;
+    --ifm-color-primary-grey-light: #969696;
+    --ifm-color-primary-grey-lighter: rgb(212, 210, 208);
+    --ifm-color-primary-grey-lightest: #F3F1EF;
+    --ifm-color-primary-grey-brown: #977a61;
+    --ifm-color-primary-grey-button-hover: #646464cb;
+
+}
+
+html[data-theme='dark'] {
+    --ifm-color-primary: #585858;
+    --ifm-color-primary-dark: #F3F1EF;
+    --ifm-color-primary-darker: #969696;
+    --ifm-color-primary-darkest: #555555;
+
+    --ifm-color-primary-light: hsl(var(--site-primary-hue-saturation-light) 54%);
+    --ifm-color-primary-lighter: hsl(
+        var(--site-primary-hue-saturation-light) 62%
+    );
+    --ifm-color-primary-lightest: #ABB8C3;
+
+    --ifm-navbar-background-color: #353535;
+    --ifm-navbar-link-color: #eaeaea;
+    --ifm-navbar-link-hover-color: #8d8c8c;
+
+    --ifm-color-button: #979797cb;
+    --ifm-color-button-hover: #bbbbbbcb;
+
+    --ifm-color-href: #979797cb;
+    --ifm-color-href-hover: #bbbbbbcb;
+
+    --text-color-primary: #eaeaea;
+    --text-color-dark: #818181;
+    --text-color-darker: #303030;
+    --text-color-darkest: #303030;
+    --text-color-light: #eaeaea;
+    --text-color-lighter: #818181;
+    --text-color-lightest: #818181;
+
+    --ifm-background-color:#1b1b1d;
+}
+
+html[data-theme='dark'] {
+    --site-color-feedback-background: #2a2929;
+    --docusaurus-highlighted-code-line-bg: rgb(66 66 66 / 35%);
+  }
+
+[data-theme='light'] {
+    --ifm-color-primary: hsl(var(--site-primary-hue-saturation) 30%);
+    --ifm-color-primary-dark: hsl(var(--site-primary-hue-saturation) 26%);
+    --ifm-color-primary-darker: hsl(var(--site-primary-hue-saturation) 23%);
+    --ifm-color-primary-darkest: hsl(var(--site-primary-hue-saturation) 17%);
+
+    --ifm-color-primary-light: hsl(var(--site-primary-hue-saturation-light) 39%);
+    --ifm-color-primary-lighter: hsl(
+        var(--site-primary-hue-saturation-light) 47%
+    );
+    --ifm-color-primary-lightest: white;
+
+    --ifm-navbar-background-color: #b1b1b1;
+    --ifm-navbar-link-color: #252525;
+    --ifm-navbar-link-hover-color: #8d8c8c;
+
+    --ifm-color-button: #646464cb;
+    --ifm-color-button-hover: #313131cb;
+
+    --ifm-color-href: #646464cb;
+    --ifm-color-href-hover: #313131cb;
+
+    --text-color-primary: #eaeaea;
+    --text-color-dark: #303030;
+    --text-color-darker: #818181;
+    --text-color-darkest: #303030;
+    --text-color-light: #eaeaea;
+    --text-color-lighter: #818181;
+    --text-color-lightest: #414141;
+}
+
+
+[data-theme='dark'] .npm {
+    filter: invert(100%);
+} 
+
+[data-theme='light'] .github {
+    filter: invert(100%);
+} 
+
+[data-theme='dark'] .navbar__logo {
+    filter: invert(100%);
+} 
+
+[data-theme='dark'] #front_image {
+    filter: invert(100%);
+} 
+
+.docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme="dark"] .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.navbar__link {
+    text-decoration: none;
+}
+
+a.navbar__brand {
+    text-decoration: none;
+}
+
+.github:after {
+    transition: opacity 0.2s;
+    content: "";
+    width: 26px;
+    height: 26px;
+    display: flex;
+    background-image: url("../../static/img/github_light.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.github:hover:after {
+    opacity: 0.5;
+}
+
+.github:after,
+.navbar-community-link:after {
+    border-style: none !important;
+    margin-left: -5px !important;
+}
+
+.npm:after {
+    transition: opacity 0.2s;
+    content: "";
+    width: 36px;
+    height: 36px;
+    display: flex;
+    background-image: url("../../static/img/npm.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+.npm:hover:after {
+    opacity: 0.5;
+}
+
+.npm:after,
+.navbar-community-link:after {
+    border-style: none !important;
+    margin-left: -5px !important;
+}
+
+
+.footer {
+    background-color: var(--ifm-navbar-background-color);
+}
+
+.search-form {
+    width: 50%;
+}
+
+.navbar__logo img {
+    margin-left: 10px;
+}
+
+.toggle {
+    margin-right: 10px;
+}
+*/

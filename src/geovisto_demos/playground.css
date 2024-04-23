@@ -1,0 +1,108 @@
+/*
+.demo-container {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.demo-map {
+    height: 50vh;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.demo-toolbar {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+#choropleth {
+    position: sticky;
+}
+
+.data-container {
+    text-align: left;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.config-container {
+    text-align: left;
+}
+
+input[type=file]::file-selector-button, input[type=submit] {
+    background-color: var(--ifm-color-button);
+    padding: 0.2rem 0.55rem;
+    display: inline-block;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: var(--ifm-color-button-hover);
+}
+
+.leaflet-tooltip-pane {
+    z-index: 500;
+}
+
+
+.editors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vh;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    width: 33.3vw;
+}
+
+.editor textarea{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(63, 63, 63);
+    resize: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.choose-file {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.file{
+    flex-shrink: 2;
+}
+
+select {
+    width: 100%;
+}
+
+.export {
+    width: 25%;
+}
+*/

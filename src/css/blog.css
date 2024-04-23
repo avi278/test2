@@ -1,0 +1,30 @@
+
+/*
+.blog {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col {
+    width: 100%;
+}
+
+article[itemprop="blogPost"]{
+    background-color: var(--ifm-color-primary-grey-blue);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+article[itemprop="blogPost"] a {
+    color: var(--text-color-dark);
+}
+
+.blog-footer a{
+    text-decoration: none;
+    
+}
+*/

@@ -1,0 +1,106 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ /*
+.heroBanner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightest {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--text-color-lightest);
+}
+
+.lighter {
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--text-color-lighter);
+}
+
+.light {
+  background-color: var(--ifm-color-primary-light);
+  color: var(--text-color-light);
+}
+
+.primary {
+  background-color: var(--ifm-color-primary);
+  color: var(--text-color-primary);
+}
+
+.dark {
+  background-color: var(--ifm-color-primary-dark);
+  color: var(--text-color-dark);
+}
+
+.darker {
+  background-color: var(--ifm-color-primary-darker);
+  color: var(--text-color-darker);
+}
+
+.darkest {
+  background-color: var(--ifm-color-primary-darkest);
+  color: var(--text-color-darkest);
+}
+
+
+
+.btn-default {
+  background-color: var(--ifm-color-button)!important;
+  padding: 0.65rem 1.2rem!important;
+  font-weight: 600!important;
+  color: #212529 !important;
+}
+
+.btn-default:hover {
+  background-color: var(--ifm-color-button-hover) !important;
+}
+
+
+.highlight {
+  color: #a7ff0f;
+}
+
+.font-big {
+  font-size: 3rem;
+}
+
+#front_image {
+  width: 26rem;
+}
+
+.href {
+  text-decoration: none;
+  color: var(--ifm-color-href)!important;
+}
+
+.href:hover {
+  text-decoration: none;
+  color: var(--ifm-color-href-hover)!important;
+}
+
+.header-container {
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+*/

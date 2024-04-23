@@ -1,0 +1,83 @@
+{
+  "name": "my-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.2.1",
+    "@docusaurus/preset-classic": "3.2.1",
+    "@mdx-js/react": "^3.0.0",
+    "bootstrap": "^5.3.3",
+    "clsx": "^2.0.0",
+    "docusaurus-plugin-sass": "^0.2.5",
+    "geovisto": "^2.1.0",
+    "geovisto-filters": "^2.1.0",
+    "geovisto-geo-downloader": "^0.9.0",
+    "geovisto-info": "^0.9.0",
+    "geovisto-layer-bubble": "^0.9.1",
+    "geovisto-layer-choropleth": "^2.0.0",
+    "geovisto-layer-connection": "^2.0.0",
+    "geovisto-layer-dot": "^0.9.1",
+    "geovisto-layer-heat": "^0.9.1",
+    "geovisto-layer-marker": "^2.0.0",
+    "geovisto-layer-spike": "^0.9.1",
+    "geovisto-layer-tiles": "^2.0.0",
+    "geovisto-legend": "^0.9.1",
+    "geovisto-selection": "^2.0.0",
+    "geovisto-sidebar": "^2.0.0",
+    "geovisto-themes": "^2.0.1",
+    "geovisto-timeline": "^0.9.0",
+    "path": "^0.12.7",
+    "prism-react-renderer": "^2.3.0",
+    "raw-loader": "^4.0.2",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.0.0",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.2.1",
+    "@docusaurus/tsconfig": "3.2.1",
+    "@docusaurus/types": "3.2.1",
+    "typescript": "~5.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "crypto": false,
+    "stream": false,
+    "http": false,
+    "tls": false,
+    "zlib": false,
+    "https": false,
+    "net": false,
+    "assert": false
+  }
+}
