@@ -10,10 +10,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: install typedoc
-      run: npm install typedoc typedoc-plugin-markdown@next 
-
-    - name: generate docs
-      run: typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts
+      run: |
+        npm install typedoc typedoc-plugin-markdown@next 
+        typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts
 
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@main
