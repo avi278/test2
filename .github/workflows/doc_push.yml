@@ -8,13 +8,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 16.x
-        cache: npm
 
     - name: install typedoc
-      run: npm install 
+      run: npm install -g typedoc
     - name: Build website
       run: typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts
         
