@@ -11,8 +11,8 @@ jobs:
 
     - name: install typedoc
       run: |
-        npm install typedoc
-        npm install typedoc typedoc-plugin-markdown@next 
+        npm install --save typedoc
+        npm install --save typedoc typedoc-plugin-markdown@next 
         typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts
 
     - name: Pushes to another repository
