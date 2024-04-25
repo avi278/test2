@@ -9,10 +9,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: install typedoc
-      run: npm install -g typedoc
-    - name: Build website
-      run: typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts
+    - name: Dir
+      run: mkdir doc
+    - name: File
+      run: touch ./doc/basic.txt
         
 
     - name: Pushes to another repository
